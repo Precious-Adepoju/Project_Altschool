@@ -1,12 +1,12 @@
-### Expense Tracker
+# Expense Tracker
 This Python project consists of two classes: Expense and ExpenseDatabase, designed for managing and tracking expenses.
 
-## Expense Class
+### Expense Class
 -__init__(self, title, amount)
 -update(self, title, amount)
 -to_dict(self)
 
-# The Expense class represents individual expenses with the following methods:
+### The Expense class represents individual expenses with the following methods:
 
 __init__(self, title, amount)
 Initializes an expense with a title and amount. Generates a unique ID using the uuid module. Sets created_at and updated_at timestamps using the datetime module.
@@ -17,7 +17,7 @@ Updates the title, amount, and updated_at timestamp whenever a change is made to
 to_dict(self)
 Returns a dictionary representation of the expense.
 
-## ExpenseDatabase Class
+### ExpenseDatabase Class
 
 -__init__(self)
 -add_expense(self, title, amount)
@@ -26,7 +26,7 @@ Returns a dictionary representation of the expense.
 -get_expense_by_title(self, title)
 -to_dict(self)
 
-# The ExpenseDatabase class manages a collection of expenses with the following methods:
+### The ExpenseDatabase class manages a collection of expenses with the following methods:
 
 __init__(self)
 Initializes an empty database.
